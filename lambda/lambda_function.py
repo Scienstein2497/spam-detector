@@ -188,7 +188,7 @@ def send_email(email, label, confidence):
     AWS_REGION = "us-east-1"
     
     # The subject line for the email.
-    SUBJECT = "Response of [{}]".format(email.subject)
+    SUBJECT = "Spam Detection Report of [{}]".format(email.subject)
     
     # The email body for recipients with non-HTML email clients.
     BODY_TEXT = (
